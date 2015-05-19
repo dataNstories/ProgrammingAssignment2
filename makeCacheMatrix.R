@@ -1,7 +1,9 @@
+# this function will take a matrix, stored it in memoery
+
 makeCacheMatrix <- function(x = matrix()) {
  
   m<-NULL  # initialize a matrix 
-    
+     
   set<-function(y){ # set the matrix 
     x<<-y
     m<<-NULL
